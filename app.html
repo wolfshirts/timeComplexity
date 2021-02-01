@@ -1,0 +1,17 @@
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<h1>Execution Time Grapher</h1>
+<form id="code_form">
+  <label>Your Code:</label><br>
+  <textarea rows="30" cols="80" id="code_area"></textarea>
+</form>
+<button type="button" form="code_form" id="run_button" value="submit">Run!!!</button>
+<div id="output"></div>
+<h2>Input your code into the code field for evaluation. Click run. Be happy.</h2><br>
+<canvas id="myChart"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script src="scripts/app.js"></script>
+</html>
